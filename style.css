@@ -1,0 +1,58 @@
+body {
+    background: linear-gradient(#2711f0 0%, #fa0ae6 50%, #fa0a0a 100%);
+    text-align: center;
+    margin-bottom: 50px auto;
+    margin-top: 10 px auto;
+}
+
+h1 {
+    color: chartreuse;
+    text-shadow: 10px 10px 3px grey;
+}
+
+p {
+    text-align: center;
+    vertical-align: middle;
+    color: darkorange;
+}
+
+#sponge {
+    border-radius: 50%;
+    width: 200px;
+}
+
+img {
+    width: 100px;
+}
+
+body:hover {
+    cursor: url("rocket.png"), auto;
+}
+.menu{
+    list-style: none;
+    font-family: sans-serif;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 10;
+    background-color: chocolate;
+    color: cyan;
+}
+.link{
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: monospace;
+    font-size: 20px;
+}
+.link:hover{
+    background-color: yellow;
+    color: green;
+    font-family: sans-serif;
+}
+button:hover{
+    cursor: pointer;
+}
